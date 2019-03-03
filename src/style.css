@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600,700|Open+Sans:600,700');
+
+body{
+  background: #f7f9f9;
+  font-family: 'Montserrat', sans-serif;
+}
+
+section {
+  margin: 50px;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 3px;
+  color: #3f00ff;
+  font-weight: 700;
+}
+
+/* table-header */
+th {
+  padding: 20px 16px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #3f00ff;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+ 
+/* table */
+table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+.table__content{
+  border: 1px solid #3f00ff;
+}
+
+.table__row-border--bottom {
+  border-bottom: 1px solid #3f00ff;
+}
+
+td {
+  padding: 16px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #3f00ff;
+}
+
+/* delete-button */
+.delete__btn {
+  border: none;
+  padding: 12px;
+  border-radius: 3px;
+  color: #3f00ff;
+  background-color: #26ffff;
+  cursor: pointer;
+  outline: none;
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+/* pagination navBar */
+.pagination,
+.NavBar {
+  display: inline-block;
+  padding: 0;
+  cursor: pointer;
+}
+
+.pagination li,
+.NavBar li  {
+  float: left;
+  padding: 8px 16px;
+  border: 1px solid #3f00ff;
+  color: #3f00ff;
+  list-style: none;
+  font-size: 12px;
+}
+
+.pagination li.active,
+.NavBar li.active {
+  background-color: #26ffff;
+}
